@@ -1,8 +1,15 @@
+require Exredis
+
 defmodule HydeTest do
   use ExUnit.Case
   doctest Hyde
 
-  test "the truth" do
-    assert 1 + 1 == 2
+  setup do
+    {:ok, client} = Exredis.start_link
+    {:ok, client: client}
+  end
+
+  test "that calling Hyde.is_active?(:feature_name) defaults to false", %{client: client} do
+    assert Hyde.active?(client, :my_feature) == false
   end
 end
