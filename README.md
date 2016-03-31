@@ -1,6 +1,6 @@
 # Hyde
 
-**TODO: Add description**
+Simple feature toggling lib that wraps Redis and integrates with Phoenix
 
 ## Installation
 
