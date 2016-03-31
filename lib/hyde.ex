@@ -84,7 +84,6 @@ defmodule Hyde do
   end
 
   @doc false
-  def return_as_boolean(result) do
-    if result == "1", do: true, else: false
-  end
+  def return_as_boolean("1"), do: true
+  def return_as_boolean(_), do: false
 end
