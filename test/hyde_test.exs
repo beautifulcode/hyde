@@ -10,6 +10,6 @@ defmodule HydeTest do
   end
 
   test "that calling Hyde.is_active?(:feature_name) defaults to false", %{client: client} do
-    assert Hyde.active?(client, :my_feature) == false
+    assert Hyde.active?(client, :feature_name) == false
   end
 end
