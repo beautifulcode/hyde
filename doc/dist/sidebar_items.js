@@ -1,0 +1,1 @@
+sidebarNodes={"exceptions":[],"extras":[{"id":"api-reference","title":"API Reference","headers":[]}],"modules":[{"id":"Hyde","title":"Hyde","functions":[{"id":"activate/3","anchor":"activate/3"},{"id":"active?/3","anchor":"active?/3"},{"id":"deactivate/3","anchor":"deactivate/3"},{"id":"inactive?/3","anchor":"inactive?/3"}]}],"protocols":[]}
