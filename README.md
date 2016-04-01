@@ -1,5 +1,7 @@
 # Hyde
 
+![Mr. Hyde](http://images.cdn.filmclub.org/film__2790-dr-jekyll-and-mr-hyde--detail.jpg "Mr Hyde")
+
 Feature Toggles for Elixir
 
 Basic Redis backed module to make flipping features on/off for individuals or named groups a snap
