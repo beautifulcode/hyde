@@ -1,8 +1,8 @@
-# Hyde
-
 ![Mr. Hyde](http://projects.beautifulco.de/hyde/hydewith-brew.jpg "Mr Hyde enjoying his Elixir")
 
-Feature Toggles for Elixir
+# Hyde
+
+## Feature Toggles for Elixir
 
 Basic Redis backed module to make flipping features on/off for individuals or named groups a snap
 
