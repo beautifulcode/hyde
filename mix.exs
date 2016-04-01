@@ -5,6 +5,11 @@ defmodule Hyde.Mixfile do
     [app: :hyde,
      version: "0.0.1",
      elixir: "~> 1.1",
+     description: "Feature Toggles for Elixir - Basic Redis backed feature
+     toggles for individual users or named groups",
+     maintainers: "Aaron Glenn",
+     licences: "MIT",
+     links: %{github: "https://github.com/beautifulcode/hyde"},
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
      deps: deps]
