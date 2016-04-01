@@ -4,6 +4,8 @@ Feature Toggles for Elixir
 
 Basic Redis backed module to make flipping features on/off for individuals or named groups a snap
 
+*WARNING* - Alpha software: likely to change APIs significantly as it is under active development
+
 ## Installation
 
 If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
