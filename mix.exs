@@ -32,7 +32,7 @@ defmodule Hyde.Mixfile do
 
   defp package do
     [
-     maintainers: "Aaron Glenn",
+     maintainers: ["Aaron Glenn"],
      licences: ["MIT"],
      links: %{"Github" => "https://github.com/beautifulcode/hyde"}
     ]
