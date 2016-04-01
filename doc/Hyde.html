@@ -67,9 +67,9 @@
 
       
         <section id="moduledoc" class="docstring">
-          <p>Basic Feature Toggling Module - get/set redis keys based on feature name &amp;
-optionally a user identifying integer to compare against.</p>
-<p>Requires an initialized ExRedis client to be passed into the toggle calls</p>
+          <p>Basic (Redis Backed) Feature Toggling</p>
+<p>Activate/Deactivate based on feature name &amp; optionally an identifying integer to compare against.</p>
+<p>Requires an initialized ExRedis client to be passed into the function calls</p>
 
         </section>
       
@@ -175,7 +175,7 @@ optionally a user identifying integer to compare against.</p>
 </ul>
 <h2>Examples</h2>
 <pre><code class="iex elixir">iex&gt; {:ok, client} = Exredis.start_link
-iex&gt; Hyde.activate(client, :my_feature)
+iex&gt; client |&gt; Hyde.activate(:my_feature)
 true</code></pre>
 
   </section>
@@ -201,8 +201,8 @@ true</code></pre>
 </ul>
 <h2>Examples</h2>
 <pre><code class="iex elixir">iex&gt; {:ok, client} = Exredis.start_link; 
-iex&gt; Hyde.activate(client, :my_active_feature)
-iex&gt; Hyde.active?(client, :my_active_feature)
+iex&gt; client |&gt; Hyde.activate(:my_active_feature)
+iex&gt; client |&gt; Hyde.active?(:my_active_feature)
 true</code></pre>
 
   </section>
@@ -227,8 +227,8 @@ true</code></pre>
 </li>
 </ul>
 <h2>Examples</h2>
-<pre><code class="iex elixir">iex&gt; {:ok, client} = Exredis.start_link; 
-iex&gt; Hyde.deactivate(client, :my_feature)
+<pre><code class="iex elixir">iex&gt; {:ok, client} = Exredis.start_link
+iex&gt; client |&gt; Hyde.deactivate(:my_feature)
 true</code></pre>
 
   </section>
@@ -254,7 +254,7 @@ true</code></pre>
 </ul>
 <h2>Examples</h2>
 <pre><code class="iex elixir">iex&gt; {:ok, client} = Exredis.start_link; 
-iex&gt; Hyde.inactive?(client, :my_inactive_feature)
+iex&gt; client |&gt; Hyde.inactive?(:my_inactive_feature)
 true</code></pre>
 
   </section>

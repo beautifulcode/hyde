@@ -7,8 +7,8 @@ defmodule Hyde.Mixfile do
      elixir: "~> 1.1",
      build_embedded: Mix.env == :prod,
      start_permanent: Mix.env == :prod,
-     package: package,
      description: description,
+     package: package,
      deps: deps]
   end
 
