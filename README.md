@@ -1,6 +1,6 @@
 # Hyde
 
-![Mr. Hyde](http://images.cdn.filmclub.org/film__2790-dr-jekyll-and-mr-hyde--detail.jpg "Mr Hyde")
+![Mr. Hyde](http://projects.beautifulco.de/hyde/hydewith-brew.jpg "Mr Hyde enjoying his Elixir")
 
 Feature Toggles for Elixir
 
