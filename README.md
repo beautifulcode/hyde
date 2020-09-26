@@ -4,9 +4,9 @@
 
 ### Feature Toggles for Elixir
 
-Basic Redis backed module to make flipping features on/off for individuals or named groups a snap
+Basic Redis backend module to make flipping features on/off for individuals or named groups a snap
 
-*WARNING* - Alpha software: likely to change APIs significantly as it is under active development
+*WARNING* - NOT MAINTAINED
 
 ## Installation
 
